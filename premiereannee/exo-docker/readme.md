@@ -3,7 +3,7 @@
 ## 1 - créer une image docker pour le site web se trouvant dans le dossier
 ```
  - site-web
- vous pouvez inspirez du fichier Dockerfile se trouvant à cette adresse : 
+ vous pouvez inspirez du fichier Dockerfile se trouvant à cette adresse : https://github.com/andresetevejob/docker-nextu-formations/blob/main/premiereannee/starnight-app/Dockerfile
 
 ```
 ## 2 - on aimerait avoir deux instances de conteneurs tournant respectivement sur les port 3000 et 3001
