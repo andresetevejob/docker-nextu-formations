@@ -73,3 +73,16 @@ CMD ["nginx","-g","daemon off;"]
  docker container ls
 
 ```
+
+6 - Créer son compte sur le docker hub
+
+```
+  - https://hub.docker.com/
+```
+
+7 - Partager son image
+```
+ - docker login
+ - docker push [tag_name]
+
+```

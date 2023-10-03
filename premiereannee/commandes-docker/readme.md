@@ -6,7 +6,8 @@
 ```
    docker build . 
 
-   NB : cette commande doit être executé dans le repertoire contenant le fichier DockerFile
+   NB : cette commande doit être executé dans le repertoire contenant le fichier DockerFile.Si votre
+   fichier se trouve à une adresse différente utilisé l'option -f
 
 ```
  -  tag d'une image :
@@ -32,11 +33,14 @@
    docker container run -p HOST_PORT:CONT_PORT --name [CONT_NAME] IMAGE_NAME
 
 NB : si le nom du conteneur n'est pas renseigné alors docker affectera un nom alétoire au conteneur
+-p : spécifie le port hôte sur auquel sera lié le port conteneur
+-d : faire tourner notre image en background
 
 ```
 - se connecter sur un conteneur :
 ```
 
+docker container exec -it [ID_CONT]/[CONT_NAME]  [shell_type]
 
 ```
 
@@ -55,5 +59,5 @@ NB : si le nom du conteneur n'est pas renseigné alors docker affectera un nom a
 
  - voir les logs d'un conteneur :
 ```
- - 
+ - docker logs [ID_CONT]/[CONT_NAME]
 ```
